@@ -20,7 +20,7 @@
         <![endif]-->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">MetaFleet - Management Client</a>
+              <a class="navbar-brand" href="#"> MetaFleet - Management Client <span class="badge bg-secondary">pre beta</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -45,42 +45,92 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <b>IP Address</b>
-              </div>
+                <b>Stored Deployments: </b>
+                <br>
+
+              
+                <br>
+              </div> 
               <div class="col">
-                <b>Status</b>
+              <b>Options: </b>
               </div>               
             </div>
+            <div class=row>
+              <div class="col">
+                <code id="ACTIVE_DEPLOYS"></code>
+              </div>  
 
-            
-            <div class="row">
               <div class="col">
-                Column
-              </div>
-              <div class="col">
-                Column
-              </div>
-              <div class="col">
-                <button type="button" class="btn btn-danger btn-sm">Remove</button>
-              </div>                
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Create New Deployment
+              </button>
+              </div>             
             </div>
-            
-            
-
-
           </div>
-          <div class="container" class="float-right" >
-            <br></br>
-            <button type="button" class="btn btn-success">Add</button>
 
-
-
-          </div>
           &nbsp
           &nbsp
           &nbsp
           &nbsp          
 
+
+        <!-- Deployments -->
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              <div class="container-sm" >
+            <div class="input-group mb-3">
+            <button type="button" class="btn btn-outline-secondary">Action</button>
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+          </div>
+
+          <div class="input-group">
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+            <button type="button" class="btn btn-outline-secondary">Action</button>
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+            </div>
+          </div>
+          <br>
+          <div class="container">
+          <button type="button" class="btn btn-success">Deploy</button>
+          </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <!-- php section -->
 
 
