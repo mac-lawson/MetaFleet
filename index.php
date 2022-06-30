@@ -8,10 +8,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>MetaFleet</title>
-        <link rel="icon" type="image/x-icon" href="/MetaJets.png">
+        <link rel="icon" type="image/x-icon" href="/MetaFleet/MetaJets.png">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="CSS/serverlist.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body>
@@ -20,7 +20,7 @@
         <![endif]-->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">MetaFleet</a>
+              <a class="navbar-brand" href="#">MetaFleet - Management Client</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -29,33 +29,50 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/metafleet/interface">Interface</a>
+                  </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Headset IP" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit" id="create-new-device">Add</button>
-                </form>
+
               </div>
             </div>
           </nav>
 
-          <h1>MetaFleet Management Client</h1>
-          <div class="container">
-          <table>
-            <tr>
-              <th>IP</th>
-              <th>Status</th>
-            </tr> 
-            <tr>
-              <td>127.0.0.1</td>
-              <td>Active</td> 
-            
-            </tr>  
+          <h2>MetaFleet Management Client</h2>
 
-          </table> 
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <b>IP Address</b>
+              </div>
+              <div class="col">
+                <b>Status</b>
+              </div>               
+            </div>
+
+            
+            <div class="row">
+              <div class="col">
+                Column
+              </div>
+              <div class="col">
+                Column
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-danger btn-sm">Remove</button>
+              </div>                
+            </div>
+            
+            
+
+
           </div>
-          <div class="container" class="float-right">
-              <button type="button" class="btn btn-success">Uptime Check</button>
-              <button type="button" class="btn btn-danger">Remove from MetaFleet</button>
+          <div class="container" class="float-right" >
+            <br></br>
+            <button type="button" class="btn btn-success">Add</button>
+
 
 
           </div>
@@ -65,15 +82,7 @@
           &nbsp          
 
         <!-- php section -->
-        <?php
-          function runCommand() {
-            echo "<h2>Command Output: </h2>";
-          }
 
-        ?>
-        <?php
-            echo "<pre>$output</pre>";
-        ?>
 
 
 

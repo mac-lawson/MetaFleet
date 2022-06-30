@@ -1,0 +1,3 @@
+function AddNewHeadset() {
+    document.getElementById
+}

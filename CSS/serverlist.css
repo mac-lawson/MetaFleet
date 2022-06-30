@@ -1,0 +1,16 @@
+.list {
+    cellspacing: 10;
+    column-span: 2;
+}
+table {
+    border-spacing: 30px;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.buttons {
+    align-items: center;
+}
