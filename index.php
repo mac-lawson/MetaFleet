@@ -39,6 +39,7 @@
           </nav>
 
           <h1>MetaFleet Management Client</h1>
+          <div class="container">
           <table>
             <tr>
               <th>IP</th>
@@ -51,17 +52,28 @@
             </tr>  
 
           </table> 
+          </div>
           <div class="container" class="float-right">
               <button type="button" class="btn btn-success">Uptime Check</button>
-              <button type="button" class="btn btn-danger">Remove fro MetaFleet</button>
+              <button type="button" class="btn btn-danger">Remove from MetaFleet</button>
 
 
           </div>
-          
+          &nbsp
+          &nbsp
+          &nbsp
+          &nbsp          
 
+        <!-- php section -->
+        <?php
+          function runCommand() {
+            echo "<h2>Command Output: </h2>";
+          }
 
-
-
+        ?>
+        <?php
+            echo "<pre>$output</pre>";
+        ?>
 
 
 
