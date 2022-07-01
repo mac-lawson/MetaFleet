@@ -3,8 +3,8 @@ function createNewAsset() {
 
     var assetName = document.getElementById("assetName").value;
 
-    document.cookie((assetIP) + '=' + (assetName))
-    document.cookie("headset=" + (assetName))
+    document.cookie((assetIP) + '=' + (assetName));
+    document.cookie("headset=" + (assetName));
 
     document.getElementById("ACTIVE_DEPLOYS").innerText = (document.cookie);
 }
