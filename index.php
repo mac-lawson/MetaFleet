@@ -108,7 +108,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Discard</button>
-                <button type="button" class="btn btn-success" onclick="createNewAsset()">Deploy</button>
+                <button type="button" class="btn btn-success" onclick='createNewAsset()'>Deploy</button>
               </div>
             </div>
           </div>
