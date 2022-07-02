@@ -10,3 +10,7 @@ function createNewAsset() {
 
     document.getElementById("ACTIVE_DEPLOYS").innerText = (document.cookie);
 }
+
+function loadAssets() {
+    document.getElementById("ACTIVE_DEPLOYS").innerText = (document.cookie);
+}    

@@ -55,20 +55,20 @@
               <b>Options: </b>
               </div>               
             </div>
-            <div class=row>
+            <div class="row">
               <div class="col">
                 <code id="ACTIVE_DEPLOYS"></code>
               </div>  
-            <div class=row>
-                <div class="col">
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                </div>
-            </div>
               <div class="col">
               <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Create New Deployment
               </button>
               </div>             
+            </div>
+            <div class='row'>
+              <div class='col'>
+                <button type="button" class="btn btn-secondary" onclick="loadAssets()">Load Assets</button>
+              </div>
             </div>
           </div>
 
