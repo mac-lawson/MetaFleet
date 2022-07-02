@@ -13,7 +13,7 @@ function createNewAsset() {
     localStorage.setItem("Headset IP Address: ", (assetIP));
     localStorage.setItem("Headset Name", (assetName));
     //Set document
-    document.getElementById("ACTIVE_DEPLOYS").innerText = ((localStorage.getItem("Headset IP Address"));
+    document.getElementById("ACTIVE_DEPLOYS").innerText = (localStorage.getItem("Headset IP Address"));
 }
 
 function loadAssets() {
