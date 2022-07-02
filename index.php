@@ -45,7 +45,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <b>Stored Deployments: </b>
+                <b>Stored Deployment: </b>
                 <br>
 
               
@@ -63,13 +63,13 @@
               </div>  
               <div class="col">
               <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Create New Deployment
+                Create Deployment
               </button>
               </div>             
             </div>
             <div class='row'>
               <div class='col'>
-                <button type="button" class="btn btn-secondary" onclick="loadAssets()">Load Assets</button>
+                <button type="button" class="btn btn-secondary" onclick="loadAssets()">Load Asset</button>
               </div>
             </div>
           </div>

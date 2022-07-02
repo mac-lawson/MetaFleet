@@ -1,8 +1,7 @@
 
 # MetaFleet
 ## currently under development
-VR headset asset management
-
+Oculus Asset Management for MetaJets
 
 
 ## Authors

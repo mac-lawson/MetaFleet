@@ -10,18 +10,25 @@ function createNewAsset() {
     //
     //
     //Set Local Storage Items
-    const storedIP = localStorage.setItem("Headset IP Address: ", (assetIP));
-    const storedName = localStorage.setItem("Headset Name", (assetName));
+    localStorage.setItem("Headset IP Address: ", (assetIP));
+    localStorage.setItem("Headset Name: ", (assetName));
     //Set document
-    display1('Oculus IP: ', assetIP);
-    display2('Oculus Name: ', assetName);
+    display1('Oculus IP: ', localStorage.getItem("Headset IP Address: "));
+    display2('Oculus Name: ', localStorage.getItem("Headset Name: "));
 }
 
 function display1(name, variable) {
+    var assetIP = document.getElementById("assetIP").value;
     document.getElementById("ACTIVE_DEPLOYS").innerText = ((name) + (variable));
         
 }    
 
 function display2(name, variable) {
-    document.getElementbyId("ACTIVE_DEPLOYS2").innerText = ((name) + (variable));
+    var assetName = document.getElementById("assetName").value;
+    document.getElementById("ACTIVE_DEPLOYS2").innerText = ((name) + (variable));
+}
+
+function loadAssets() {
+    display1('Oculus IP: ', localStorage.getItem("Headset IP Address: "));
+    display2('Oculus Name: ', localStorage.getItem("Headset Name: "));
 }
