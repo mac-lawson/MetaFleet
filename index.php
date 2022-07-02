@@ -58,6 +58,8 @@
             <div class="row">
               <div class="col">
                 <code id="ACTIVE_DEPLOYS"></code>
+                <br>
+                <code id="ACTIVE_DEPLOYS2"></code>
               </div>  
               <div class="col">
               <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
