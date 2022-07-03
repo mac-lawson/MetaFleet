@@ -37,6 +37,9 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Create Flights</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/about">About</a>
+                  </li>
                 </ul>
 
               </div>
