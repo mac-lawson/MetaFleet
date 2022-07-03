@@ -30,7 +30,7 @@
         <!-- start of navbar -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"> MetaFleet - Management Client <span class="badge bg-secondary">pre beta</span></a>
+            <a class="navbar-brand" href="/"> MetaFleet <span class="badge bg-secondary">pre beta</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -48,6 +48,9 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/about">About</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/payment">Payments</a>
+                  </li>
                 </ul>
 
               </div>
@@ -59,6 +62,7 @@
 
 
         <!-- remove after beta -->
+        <br>
         <div class="container">
           <div class="alert alert-warning" role="alert">
               This is the pre-beta version of MetaFleet, by MetaJets, and dose not have proper functionality. Visit <span><a href='https://github.com/mac-lawson/MetaFleet'>my GitHub</a></span> to check for the v1.0 release.
