@@ -7,17 +7,27 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>MetaFleet</title>
-        <link rel="icon" type="image/x-icon" href="/MetaFleet/MetaJets.png">
+        <title>MetaFleet - Deploy</title>
+        <link rel="icon" type="image/x-icon" href="/MetaJets.png">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="CSS/serverlist.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body>
-        <!--[if lt IE 7]>
+        <!-- if the browser if old:  -->
+
+        <!-- [if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <![endif] -->
+
+
+
+
+
+
+
+        <!-- start of navbar -->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"> MetaFleet - Management Client <span class="badge bg-secondary">pre beta</span></a>
@@ -32,11 +42,30 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/interface?command=dir">Interface</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/create">Create Flights</a>
+                  </li>
                 </ul>
 
               </div>
             </div>
           </nav>
+          <!-- end of navbar -->
+
+
+
+
+        <!-- remove after beta -->
+        <div class="container">
+          <div class="alert alert-warning" role="alert">
+              This is the pre-beta version of MetaFleet, by MetaJets, and dose not have proper functionality. Visit <span><a href='https://github.com/mac-lawson/MetaFleet'>my GitHub</a></span> to check for the v1.0 release.
+          </div>
+        </div>
+        <!-- end -->
+
+
+
+          
 
           <h2>MetaFleet Management Client</h2>
 
