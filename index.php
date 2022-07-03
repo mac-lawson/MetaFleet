@@ -65,7 +65,7 @@
         <br>
         <div class="container">
           <div class="alert alert-warning" role="alert">
-              This is the pre-beta version of MetaFleet, by MetaJets, and dose not have proper functionality. Visit <span><a href='https://github.com/mac-lawson/MetaFleet'>my GitHub</a></span> to check for the v1.0 release.
+              This is the pre-beta version of MetaFleet, by MetaJets, and dose not have proper functionality. Visit <span><a href='https://github.com/mac-lawson/MetaFleet'>my GitHub</a></span> to check for the v1.0 release. The License is available <span><a href='/LICENSE'>here.</a></span>
           </div>
         </div>
         <!-- end -->
