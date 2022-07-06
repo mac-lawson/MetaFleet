@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'latestnews' => [
+        'news'        => 'Novità',
+        'nonewsfound' => 'Nessuna Novità Trovata',
+    ],
+
+    'livemap' => [
+        'groundspeed' => 'Velocità al Suolo',
+        'altitude'    => 'Altitudine',
+        'heading'     => 'Direzione',
+        'distance'    => 'Distanza',
+        'noflights'   => 'Non ci sono voli.',
+        'gs'          => 'VS',
+    ],
+
+    'weather' => [
+        'nometar'    => 'I dati METAR/TAF non possono essere recuperati',
+        'conditions' => 'Condizioni',
+        'visibility' => 'visibilità',
+        'humidity'   => 'umidità',
+        'dewpoint'   => 'punto di rugiada',
+        'barometer'  => 'Barometro',
+        'clouds'     => 'Nuvole',
+        'wind'       => 'Vento',
+        'guststo'    => 'raffiche da',
+        'remarks'    => 'Remarks',
+        'updated'    => 'Aggiornato',
+        'hrago'      => 'ora fa|ore fa',
+        'minago'     => 'ninuto fa|minuti fa',
+    ],
+];

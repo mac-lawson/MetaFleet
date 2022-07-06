@@ -56,10 +56,10 @@
 
 
 
-
+          <br>
           <div class="container">  
             <div class="alert alert-warning" role="alert">
-                Commands must be passed through a web paramater to be sent to the OS! 
+                This page is disabled for the public demo, due to security concerns. 
             </div>
           </div>
           <?php
